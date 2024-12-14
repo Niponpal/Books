@@ -1,0 +1,100 @@
+
+header{
+    padding: 20px 100px;
+    background: rgba(221, 221, 221, 1);
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:2px solid white ;
+}
+.books-logo img{
+    padding: 1rem;
+    margin: 10px;
+}
+
+
+
+.list-container{
+    display: flex;
+    padding: 1rem;
+
+}
+
+.list-container li{
+    list-style: none;
+  
+    
+}
+
+.list-container li a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin: 10px;
+    color: rgb(31, 30, 28);
+}
+
+.list-container li a:hover{
+    color:white ;
+}
+
+
+.banner-container {
+    display: flex;
+    margin-top: 5rem;
+}
+
+.banner-text-container {
+    width: 500px;
+    margin-left: 270px;
+   
+}
+
+.banner-text-container .banner-tittle{
+    font-weight: 500;
+    font-size: 5rem;
+    gap: 15px;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 15px;
+    border: 1px solid orangered;
+
+}
+
+.btn-primary:hover{
+    border-radius: 5px;
+    padding: 13px;
+    color: black;
+    font-size: 15px;
+}
+
+
+.banner-image-contianer{
+    margin-left: 150px;
+      
+}
+
+.banner-image-contianer img{
+    margin: 1rem;
+}
+
+
+.BookStore-area{
+    background-color: rgb(109, 101, 90);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.BookStore-area .Book-image-container{
+    padding: 2rem;
+    margin: 2rem;
+
+  
+}
+

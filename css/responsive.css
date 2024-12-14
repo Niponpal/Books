@@ -1,0 +1,73 @@
+@media screen and (max-width:576px) {
+   header{
+    padding: 10px;
+   }
+   
+    nav,  .banner-container{
+        flex-direction: column;
+        padding: 0px;
+        margin-top: 1rem;
+    }
+
+    .list-container li a{
+        font-size: .8rem;
+    }
+
+    .banner-text-container , .banner-image-contianer{
+        margin-left: 1rem;
+    }
+    .banner-description {
+        width: 80%;
+    }
+    .BookStore-area{
+      margin: 8px;
+    }
+}
+
+
+
+
+
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    
+    header{
+        padding: 30px;
+       }
+
+       nav, .banner-container , .BookStore-area  {
+        flex-direction: column;
+        padding: 0px;
+        margin-top: 1.5rem;
+        justify-content: center;
+    }
+    .list-container li a{
+        font-size: 1rem;
+    }
+
+    .banner-text-container .banner-tittle{
+        font-size: 3.5rem;
+    }
+
+    .banner-text-container , .banner-image-contianer{
+        margin-left: 20px;
+    }
+
+ }
+
+
+ @media screen and (min-width:992px) and (max-width:1424px) {
+ 
+
+    .banner-text-container .banner-tittle{
+        font-size: 3.5rem;
+    }
+
+    .banner-text-container , .banner-image-contianer{
+        margin-left: 20px;
+    }
+    
+    .list-container li a{
+       font-size: 1.5rem;
+    } 
+}
